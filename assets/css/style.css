@@ -1,0 +1,321 @@
+.biz-udpgothic-regular {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*
+grid
+*/
+
+.grid {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-item {
+  list-style: none;
+}
+
+.grid-col-2 > .grid-item {
+  width: 50%;
+}
+
+.grid-col-3 > .grid-item {
+  width: 33.3%;
+}
+
+.grid-col-4 > .grid-item {
+  width: 25%;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+  background: #efffff;
+  margin: 0 0 0;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.509);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  box-shadow: 0 5px 0 #bbb;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 14px 20px;
+  font-weight: 1000;
+}
+
+nav a:hover {
+  background-color: #bbb;
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.top {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+  background-color: paleturquoise;
+}
+
+.top h1 {
+  font-size: 40px;
+}
+
+/*
+スライド
+*/
+.image-container {
+  padding: 40% 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+/* ↓現れるとき */
+.Instraction-image.show {
+  opacity: 1;
+  transform: translate(-50%, 0) translateX(0); 
+}
+/* ↓消えるとき */
+.Instraction-image.hide {
+  opacity: 0;
+  transform: translate(-50%, 0) translateX(100px);
+}
+
+/*
+section
+*/
+.section {
+  padding: 30px 0px;
+  z-index: 1;
+}
+
+.section-headline {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  background: #bbbbbb50;
+  margin: 0 0 40 0;
+}
+
+.section-button {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/*
+Instraction
+*/
+.Instraction {
+  margin: 0;
+  display: block;
+}
+
+.Instraction-caption {
+  padding-left: 15px;
+}
+
+.Instraction-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin: -30% 0px;
+  left: 50%;
+  transform: translate(-50%, 0) translateX(-100px);
+  opacity: 0;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.Instraction-headline {
+  margin: 0 0 0;
+  font-size: 40px;
+}
+
+.Instraction-description {
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*
+works
+*/
+.works {
+  text-align: center;
+  padding: 0 15px ;
+}
+
+.works-headline {
+  font-weight: bold;
+  margin: 0 0 20px ;
+}
+
+.works-dd {
+  margin: 0 0 20px ;
+}
+
+.works-image {
+  width: 100%;
+  height: auto;
+}
+
+.works-description {
+  text-align: center;
+  font-family: "BIZ UDPGothic", sans-serif;
+}
+
+/*
+card
+*/
+.card{
+  padding: 0 10px;
+}
+
+.card-link{
+  display: block;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  transition: background-color 0.5s;
+}
+
+.card-link:hover {
+  background-color: #eee;
+}
+
+.card-label{
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: white;
+  background-color: #585858;
+  display: block;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.card-image{
+  width: 100%;
+  height: auto;
+}
+
+.card-info{
+  padding: 5px 10px;
+}
+
+/*.card-time{}*/
+
+.card-headline{
+  margin: 0;
+}
+
+.card-description{
+  margin: 0;
+  font-family: "BIZ UDPGothic", sans-serif;
+}
+
+
+/*
+avator
+*/
+.avator{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  padding: 10px;
+}
+
+.avator-name{
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.avator-image{
+  margin: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/*
+footer
+*/
+
+.footer {
+  background: #333;
+  color: #fff;
+}
+
+.footer-map {
+  margin: 0;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-map > iframe {
+  width: 60%;
+}
+
+.footer-mapinfo {
+  width: 50%;
+  padding: 15px;
+}
+
+.footer-mapaddress {
+  font-style: normal;
+}
+
+.footer-mapaddress > a {
+  color: #FFF;
+}
+
+.footer-line {
+  background-color: #444;
+  padding: 15px 50%;
+}
+
+/*
+botton
+*/
+.button {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  background-color: #333;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 60px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 #bbb;
+  transition: box-shadow 0.25s;
+  border: 0;
+}
+
+.button:hover {
+  box-shadow: 0 0 0 #bbb;
+}
