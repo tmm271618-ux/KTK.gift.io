@@ -16,9 +16,12 @@ div {
     display: block;
     position: absolute;
     padding: 60, 60;
+    whidth: 40px;
+        20px
     background-color: aqua;
     left: 30px;
 }
+
 
 
 
