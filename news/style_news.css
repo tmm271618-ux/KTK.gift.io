@@ -1,5 +1,5 @@
 body {
-    line-height: 20px;
+    line-height: 10px;
     text-align: center;
     font-weight: bold;
     position: relative;
@@ -18,4 +18,5 @@ div {
     padding: 60, 60;
     background-color: aqua;
 }
+
 
