@@ -23,8 +23,12 @@ div {
 }
 
 h1 {
+    display: block;
+    position: absolute;
+    padding: 50%, 50px;
     background-color:rgb(160, 220, 220);
 }
+
 
 
 
