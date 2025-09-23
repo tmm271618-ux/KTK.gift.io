@@ -28,4 +28,12 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    background: #efffff;
+    margin: 0 0 0;
 }
+
+h1 {
+    background: #bbbbbb50;
+    margin: 0 0 40 0;
+}
+
