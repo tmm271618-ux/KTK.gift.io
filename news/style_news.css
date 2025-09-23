@@ -1,35 +1,31 @@
+nav {
+  background-color: rgba(0, 255, 255, 0.509);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  z-index: 1;
+  box-shadow: 0 5px 0 #61c1e7;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 14px 20px;
+  font-weight: 1000;
+}
+
+nav a:hover {
+  background-color: #00000081;
+}
+
 body {
-    line-height: 10px;
-    text-align: center;
+    line-height: 20px;
+    margin: 0;
+    font-size: 20px;
     font-weight: bold;
-    position: relative;
-}
-
-div {
-    width: 100%;
-    height: auto;
-    position: relative;
     text-align: center;
 }
-
-.box-1 {
-    display: block;
-    position: absolute;
-    padding: 60, 60;
-    whidth: 40px;
-        20px
-    background-color: aqua;
-    left: 30px;
-}
-
-h1 {
-    display: block;
-    position: absolute;
-    padding: 50%, 50px;
-    background-color:rgb(160, 220, 220);
-}
-
-
-
-
-
